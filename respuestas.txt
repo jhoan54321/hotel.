@@ -1,0 +1,8 @@
+Respuestas
+a. El Lock evita condiciones de carrera, asegurando que solo un proceso modifique las
+habitaciones a la vez.
+b. El semáforo limita la cantidad de solicitudes concurrentes, evitando la saturación del servidor.
+c. No, porque un Lock solo permite una ejecución a la vez, eliminando la concurrencia. El semáforo
+permite varias controladas.
+d. Sin Lock se pueden obtener valores negativos como -2 o -5 debido a sobreventa.
+e. Se eligió 5 como equilibrio entre rendimiento y estabilidad del sistema
